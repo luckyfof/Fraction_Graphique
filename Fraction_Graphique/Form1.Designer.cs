@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.groupFrac1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.frac1Den = new System.Windows.Forms.TextBox();
+            this.frac1Num = new System.Windows.Forms.TextBox();
             this.groupFrac2 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.frac2Den = new System.Windows.Forms.TextBox();
+            this.frac2Num = new System.Windows.Forms.TextBox();
             this.groupFrac3 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.frac3Den = new System.Windows.Forms.TextBox();
+            this.frac3Num = new System.Windows.Forms.TextBox();
             this.groupFrac4 = new System.Windows.Forms.GroupBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.frac4Num = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupFrac1.SuspendLayout();
             this.groupFrac2.SuspendLayout();
@@ -48,8 +48,8 @@
             // 
             // groupFrac1
             // 
-            this.groupFrac1.Controls.Add(this.textBox2);
-            this.groupFrac1.Controls.Add(this.textBox1);
+            this.groupFrac1.Controls.Add(this.frac1Den);
+            this.groupFrac1.Controls.Add(this.frac1Num);
             this.groupFrac1.Location = new System.Drawing.Point(54, 41);
             this.groupFrac1.Name = "groupFrac1";
             this.groupFrac1.Size = new System.Drawing.Size(150, 95);
@@ -58,24 +58,25 @@
             this.groupFrac1.Text = "frac1";
             this.groupFrac1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // textBox1
+            // frac1Den
             // 
-            this.textBox1.Location = new System.Drawing.Point(30, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(90, 20);
-            this.textBox1.TabIndex = 0;
+            this.frac1Den.Location = new System.Drawing.Point(30, 61);
+            this.frac1Den.Name = "frac1Den";
+            this.frac1Den.Size = new System.Drawing.Size(90, 20);
+            this.frac1Den.TabIndex = 1;
             // 
-            // textBox2
+            // frac1Num
             // 
-            this.textBox2.Location = new System.Drawing.Point(30, 61);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(90, 20);
-            this.textBox2.TabIndex = 1;
+            this.frac1Num.Location = new System.Drawing.Point(30, 19);
+            this.frac1Num.Name = "frac1Num";
+            this.frac1Num.Size = new System.Drawing.Size(90, 20);
+            this.frac1Num.TabIndex = 0;
+            this.frac1Num.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // groupFrac2
             // 
-            this.groupFrac2.Controls.Add(this.textBox3);
-            this.groupFrac2.Controls.Add(this.textBox4);
+            this.groupFrac2.Controls.Add(this.frac2Den);
+            this.groupFrac2.Controls.Add(this.frac2Num);
             this.groupFrac2.Location = new System.Drawing.Point(229, 41);
             this.groupFrac2.Name = "groupFrac2";
             this.groupFrac2.Size = new System.Drawing.Size(150, 95);
@@ -84,24 +85,24 @@
             this.groupFrac2.Text = "frac2";
             this.groupFrac2.Enter += new System.EventHandler(this.groupBox1_Enter_1);
             // 
-            // textBox3
+            // frac2Den
             // 
-            this.textBox3.Location = new System.Drawing.Point(30, 61);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(90, 20);
-            this.textBox3.TabIndex = 1;
+            this.frac2Den.Location = new System.Drawing.Point(30, 61);
+            this.frac2Den.Name = "frac2Den";
+            this.frac2Den.Size = new System.Drawing.Size(90, 20);
+            this.frac2Den.TabIndex = 1;
             // 
-            // textBox4
+            // frac2Num
             // 
-            this.textBox4.Location = new System.Drawing.Point(30, 19);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(90, 20);
-            this.textBox4.TabIndex = 0;
+            this.frac2Num.Location = new System.Drawing.Point(30, 19);
+            this.frac2Num.Name = "frac2Num";
+            this.frac2Num.Size = new System.Drawing.Size(90, 20);
+            this.frac2Num.TabIndex = 0;
             // 
             // groupFrac3
             // 
-            this.groupFrac3.Controls.Add(this.textBox5);
-            this.groupFrac3.Controls.Add(this.textBox6);
+            this.groupFrac3.Controls.Add(this.frac3Den);
+            this.groupFrac3.Controls.Add(this.frac3Num);
             this.groupFrac3.Location = new System.Drawing.Point(411, 41);
             this.groupFrac3.Name = "groupFrac3";
             this.groupFrac3.Size = new System.Drawing.Size(150, 95);
@@ -109,23 +110,23 @@
             this.groupFrac3.TabStop = false;
             this.groupFrac3.Text = "frac3";
             // 
-            // textBox5
+            // frac3Den
             // 
-            this.textBox5.Location = new System.Drawing.Point(30, 61);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(90, 20);
-            this.textBox5.TabIndex = 1;
+            this.frac3Den.Location = new System.Drawing.Point(30, 61);
+            this.frac3Den.Name = "frac3Den";
+            this.frac3Den.Size = new System.Drawing.Size(90, 20);
+            this.frac3Den.TabIndex = 1;
             // 
-            // textBox6
+            // frac3Num
             // 
-            this.textBox6.Location = new System.Drawing.Point(30, 19);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(90, 20);
-            this.textBox6.TabIndex = 0;
+            this.frac3Num.Location = new System.Drawing.Point(30, 19);
+            this.frac3Num.Name = "frac3Num";
+            this.frac3Num.Size = new System.Drawing.Size(90, 20);
+            this.frac3Num.TabIndex = 0;
             // 
             // groupFrac4
             // 
-            this.groupFrac4.Controls.Add(this.textBox8);
+            this.groupFrac4.Controls.Add(this.frac4Num);
             this.groupFrac4.Location = new System.Drawing.Point(597, 41);
             this.groupFrac4.Name = "groupFrac4";
             this.groupFrac4.Size = new System.Drawing.Size(150, 95);
@@ -133,12 +134,12 @@
             this.groupFrac4.TabStop = false;
             this.groupFrac4.Text = "frac4";
             // 
-            // textBox8
+            // frac4Num
             // 
-            this.textBox8.Location = new System.Drawing.Point(32, 40);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(90, 20);
-            this.textBox8.TabIndex = 0;
+            this.frac4Num.Location = new System.Drawing.Point(32, 40);
+            this.frac4Num.Name = "frac4Num";
+            this.frac4Num.Size = new System.Drawing.Size(90, 20);
+            this.frac4Num.TabIndex = 0;
             // 
             // button1
             // 
@@ -176,16 +177,16 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupFrac1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox frac1Den;
+        private System.Windows.Forms.TextBox frac1Num;
         private System.Windows.Forms.GroupBox groupFrac2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox frac2Den;
+        private System.Windows.Forms.TextBox frac2Num;
         private System.Windows.Forms.GroupBox groupFrac3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox frac3Den;
+        private System.Windows.Forms.TextBox frac3Num;
         private System.Windows.Forms.GroupBox groupFrac4;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox frac4Num;
         private System.Windows.Forms.Button button1;
     }
 }
